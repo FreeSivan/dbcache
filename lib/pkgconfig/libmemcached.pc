@@ -1,0 +1,10 @@
+prefix=/home/xiwen.yxw/libmemcached/libmemcached_install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libmemcached
+Description: libmemcached C library.
+Version: 0.44
+Libs: -L${libdir} -lmemcached
+Cflags: -I${includedir}
